@@ -1,11 +1,6 @@
-//
-//  iSplaApp.swift
-//  iSpla
-//
-//  Created by hi on 2023/10/06.
-//
 
 import SwiftUI
+import SwiftData
 
 @main
 struct iSplaApp: App {
