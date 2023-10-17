@@ -1,4 +1,3 @@
-
 import SwiftUI
 
 struct ContentView: View {
@@ -22,9 +21,10 @@ struct ContentView: View {
                     Text("Is Fest: \(stage.is_fest ? "Yes" : "No")")
 
                     ForEach(stage.stages, id: \.id) { splatoonStage in
-                        Text("Stage ID: \(splatoonStage.id)")
-                        Text("Stage Name: \(splatoonStage.name)")
-                        Text("Stage Image: \(splatoonStage.image)")
+                        Text("ステージ: \(splatoonStage.name)")
+                        if let imageURL = URL(string: splatoonStage.image) {
+                                URLImage(url: imageURL)
+                        }
                     }
                 }
                 .padding()
@@ -34,4 +34,8 @@ struct ContentView: View {
             viewModel.fetchData()
         }
     }
+}
+
+#Preview {
+    ContentView()
 }

@@ -13,6 +13,7 @@
 		06448B302ACF170B00DE91B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06448B2F2ACF170B00DE91B3 /* Preview Assets.xcassets */; };
 		0674E8D22ACF9E9300A1B3E5 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0674E8D12ACF9E9300A1B3E5 /* URLImage */; };
 		0674E8D42ACF9E9300A1B3E5 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 0674E8D32ACF9E9300A1B3E5 /* URLImageStore */; };
+		06C4F6AA2ADE0CE300ED4136 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C4F6A92ADE0CE300ED4136 /* Image.swift */; };
 		06EF91D02ACF30EE001175D6 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EF91CF2ACF30EE001175D6 /* model.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		06448B2B2ACF170B00DE91B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06448B2D2ACF170B00DE91B3 /* iSpla.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iSpla.entitlements; sourceTree = "<group>"; };
 		06448B2F2ACF170B00DE91B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06C4F6A92ADE0CE300ED4136 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		06EF91CF2ACF30EE001175D6 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 		06448B262ACF170900DE91B3 /* iSpla */ = {
 			isa = PBXGroup;
 			children = (
+				06C4F6A92ADE0CE300ED4136 /* Image.swift */,
 				06EF91CF2ACF30EE001175D6 /* model.swift */,
 				06448B292ACF170900DE91B3 /* ContentView.swift */,
 				06448B272ACF170900DE91B3 /* iSplaApp.swift */,
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06448B2A2ACF170900DE91B3 /* ContentView.swift in Sources */,
+				06C4F6AA2ADE0CE300ED4136 /* Image.swift in Sources */,
 				06EF91D02ACF30EE001175D6 /* model.swift in Sources */,
 				06448B282ACF170900DE91B3 /* iSplaApp.swift in Sources */,
 			);
